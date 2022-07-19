@@ -1,0 +1,53 @@
+﻿<Window x:Class="EssentialAppInstaller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EssentialAppInstaller"
+        mc:Ignorable="d"
+        Title="Essential Apps Installer" Height="779" Width="800">
+    <Grid>
+        <Label x:Name="Title" Content="Essential Apps Installer" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontFamily="Monofonto" FontWeight="Normal" FontSize="36" RenderTransformOrigin="0.506,0.609"/>
+        <Label x:Name="Lbl_Search" Content="Search : " HorizontalAlignment="Left" Margin="4,108,0,0" VerticalAlignment="Top" FontFamily="Monofonto" FontSize="20"/>
+        <Label Content="Developed By Anant Narayan" HorizontalAlignment="Center" Margin="0,694,0,0" VerticalAlignment="Top" FontFamily="Monofonto" FontSize="24" Opacity="0.5"/>
+        <TextBox HorizontalAlignment="Left" Margin="123,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Height="28" FontFamily="Monofonto" FontSize="18"/>
+        <Label x:Name="lbl_Com_app" Content="Commonly Used Apps" HorizontalAlignment="Center" Margin="0,160,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,-1.424" FontFamily="Monofonto" FontSize="22"/>
+        <Label x:Name="lbl_OperaGX" Content="Opera GX" HorizontalAlignment="Left" Margin="36,242,0,0" VerticalAlignment="Top" FontFamily="Zrnic" FontSize="16" FontWeight="Bold"/>
+        <CheckBox x:Name="chkb_opera" Content="" HorizontalAlignment="Left" Margin="212,247,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.2,0.692" FontFamily="Monofonto" FontSize="16"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="5,234,536,403" RenderTransformOrigin="0.5,0.5" CornerRadius="10,10,10,10">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.286"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="1.995"/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        <Label x:Name="st_lbl_browser" Content="Browsers" HorizontalAlignment="Left" Margin="95,202,0,0" VerticalAlignment="Top" FontFamily="Monofonto" FontSize="18"/>
+        <Label x:Name="lbl_Brave" Content="Brave" HorizontalAlignment="Left" Margin="36,271,0,0" VerticalAlignment="Top" FontFamily="Zrnic" FontSize="16" FontWeight="Bold"/>
+        <CheckBox x:Name="chkb_brave" Content="" HorizontalAlignment="Left" Margin="212,276,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.2,0.692" FontFamily="Monofonto" FontSize="16"/>
+        <Label x:Name="lbl_Chrome" Content="Chrome" HorizontalAlignment="Left" Margin="36,300,0,20" VerticalAlignment="Top" FontFamily="Zrnic" FontSize="16" FontWeight="Bold"/>
+        <CheckBox x:Name="chkb_chrome" Content="" HorizontalAlignment="Left" Margin="212,305,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.2,0.692" FontFamily="Monofonto" FontSize="16"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="287,234,254,343" RenderTransformOrigin="0.5,0.5" CornerRadius="10,10,10,10">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.286"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="1.995"/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        <Label x:Name="st_lbl_Code_ed" Content="Code Editors" HorizontalAlignment="Left" Margin="356,202,0,0" VerticalAlignment="Top" FontFamily="Monofonto" FontSize="18"/>
+        <Label x:Name="lbl_vscode" Content="Visual Studio Code" HorizontalAlignment="Left" Margin="318,242,0,0" VerticalAlignment="Top" FontFamily="Zrnic" FontSize="16" FontWeight="Bold"/>
+        <CheckBox x:Name="chkb_vscode" Content="" HorizontalAlignment="Left" Margin="489,247,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.2,0.692" FontFamily="Monofonto" FontSize="16"/>
+        <Label x:Name="lbl_Atom" Content="Atom (Discontinued)" HorizontalAlignment="Left" Margin="319,270,0,0" VerticalAlignment="Top" FontFamily="Zrnic" FontSize="16" FontWeight="Bold"/>
+        <CheckBox x:Name="chkb_atom" Content="" HorizontalAlignment="Left" Margin="489,275,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.2,0.692" FontFamily="Monofonto" FontSize="16"/>
+        <Label x:Name="lbl_sublime" Content="Sublime Text 4" HorizontalAlignment="Left" Margin="319,300,0,0" VerticalAlignment="Top" FontFamily="Zrnic" FontSize="16" FontWeight="Bold"/>
+        <CheckBox x:Name="chkb_sublime" Content="" HorizontalAlignment="Left" Margin="489,305,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.2,0.692" FontFamily="Monofonto" FontSize="16"/>
+        <Label x:Name="lbl_notepadplusplus" Content="Notepad ++" HorizontalAlignment="Left" Margin="319,329,0,0" VerticalAlignment="Top" FontFamily="Zrnic" FontSize="16" FontWeight="Bold"/>
+        <CheckBox x:Name="chkb_sublime_Copy" Content="" HorizontalAlignment="Left" Margin="489,334,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.2,0.692" FontFamily="Monofonto" FontSize="16"/>
+
+    </Grid>
+</Window>
